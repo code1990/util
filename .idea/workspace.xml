@@ -2,60 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b8f2b1-e72c-4512-b229-0b75a43f6380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/TxtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/log/ISysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/log/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/SeleniumUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/chromedriver_win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/MainProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/MainProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/MainProcessorTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/PageTagType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spider/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/time/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/time/DateTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/custom/CustomLineRecordReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/custom/CustomTextInputFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/BusinessIncomeLoadJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/BusinessIncomeLoadJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/BwhGjetFilesJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/BwhGjetFilesJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/CabinAnalysisImportJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/CabinAnalysisImportJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/CabinAnalysisStreamingJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/CabinAnalysisStreamingJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FTPSourceJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FTPSourceJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FileReader$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FlightRevenueImportJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FlightRevenueImportJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FrontLineFdlJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FrontLineFdlJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FrontLineOldImportJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FrontLineOldImportJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FtpFilesToHdfs$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/FtpFilesToHdfs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/GlobalInstance$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/GlobalInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/HdfsSafeDeleteFiles$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/HdfsSafeDeleteFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/HiveSqlTester$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/HiveSqlTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/ImpalaSqlJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/ImpalaSqlJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/ParquetFileJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/ParquetFileJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SparkSqlTester$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SparkSqlTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SparkZipBinaryFilesJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SparkZipBinaryFilesJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SqlServerTester$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/job/demo/SqlServerTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/CopyFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/FtpFilesToHdfs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/GlobalInstanceJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/HdfsUnsafeDeleteFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/SparkBinaryJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/UZipFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spark/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/streaming/demo/CabinAnalysisStreamingJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/streaming/demo/CabinAnalysisStreamingJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/streaming/demo/FtpScanStreamingJob$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/streaming/demo/FtpScanStreamingJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spark/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,28 +34,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="24" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="24" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="744" />
-          <entry key="xml" value="31" />
+          <entry key="java" value="1221" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="744" />
+          <entry key="JAVA" value="1221" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
     </session>
@@ -107,98 +65,110 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="194">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/selenium/SeleniumUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1830">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessorTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="801">
+              <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spider/PageTagType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spider/PageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/log/SysLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/TxtUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="143" column="23" lean-forward="true" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+            <state relative-caret-position="243">
+              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3870#3871#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/time/DateTimeUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/FtpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lang/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/math/MathUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/Excel2007Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/Excel2010Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/ImageUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -221,13 +191,28 @@
         <option value="$PROJECT_DIR$/src/main/java/io/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/time/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/lang/StringUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/time/DateTimeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/TxtUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/log/SysLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/PageTagType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/PageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/MainProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/MainProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/MainProcessorTest2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/SeleniumUtil.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repositories\maven" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.0.5" />
+        <option name="userSettingsFile" value="D:\sdk\apache-maven-3.0.5\conf\settingsAliyun.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -278,15 +263,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="util" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="time" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="util" type="b2602c69:ProjectViewProjectNode" />
@@ -302,16 +279,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543327600565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543332088918" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2888889" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="translate" />
       <recent name="lang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sdk\IdeaProjects\util\src\main\java\selenium" />
+      <recent name="D:\sdk\IdeaProjects\util\src\main\java\spider" />
+      <recent name="D:\sdk\IdeaProjects\util\src\main\java\log" />
       <recent name="D:\sdk\IdeaProjects\util\src\main\java\io" />
     </key>
   </component>
@@ -327,7 +309,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TxtUtil.test">
+  <component name="RunManager" selected="JUnit.SeleniumUtil.testFindElement">
+    <configuration name="MainProcessorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spider.MainProcessorTest" />
+      <module name="util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateTimeUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="util" />
       <extension name="coverage">
@@ -342,17 +337,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeUtil.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumUtil.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="time" />
-      <option name="MAIN_CLASS_NAME" value="time.DateTimeUtil" />
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.SeleniumUtil" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumUtil.testFindElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.SeleniumUtil" />
+      <option name="METHOD_NAME" value="testFindElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -375,15 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DateTimeUtil.test" />
       <item itemvalue="JUnit.DateTimeUtil" />
       <item itemvalue="JUnit.TxtUtil.test" />
+      <item itemvalue="Application.MainProcessorTest" />
+      <item itemvalue="JUnit.SeleniumUtil.test" />
+      <item itemvalue="JUnit.SeleniumUtil.testFindElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeleniumUtil.testFindElement" />
+        <item itemvalue="JUnit.SeleniumUtil.test" />
+        <item itemvalue="Application.MainProcessorTest" />
         <item itemvalue="JUnit.TxtUtil.test" />
         <item itemvalue="JUnit.DateTimeUtil" />
-        <item itemvalue="JUnit.DateTimeUtil.test" />
       </list>
     </recent_temporary>
   </component>
@@ -401,21 +416,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTimeUtil_test - 2018.11.27 at 22h 00m 36s.xml">
-      <configuration name="DateTimeUtil.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTimeUtil - 2018.11.27 at 22h 00m 56s.xml">
-      <configuration name="DateTimeUtil" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TxtUtil_test - 2018.11.27 at 22h 02m 27s.xml">
       <configuration name="TxtUtil.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeleniumUtil_test - 2018.11.27 at 22h 47m 07s.xml">
+      <configuration name="SeleniumUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_test - 2018.11.27 at 22h 53m 25s.xml">
+      <configuration name="SeleniumUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_test - 2018.11.27 at 22h 59m 37s.xml">
+      <configuration name="SeleniumUtil.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 17m 48s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 18m 14s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 19m 30s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 19m 56s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 20m 26s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumUtil_testFindElement - 2018.11.27 at 23h 21m 38s.xml">
+      <configuration name="SeleniumUtil.testFindElement" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -531,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/time/DateTimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -552,11 +581,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/TxtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="143" column="23" lean-forward="true" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+        <state relative-caret-position="243">
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/PageTagType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessorTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="132" column="42" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/SeleniumUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1830">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
