@@ -24,27 +24,32 @@ public class SysLog implements ISysLog{
         return log;
     }
 
-
+    @Override
     public void debug(String msg) {
         logger.debug(prependClassAndMethodToMsg(msg));
     }
 
+    @Override
     public void info(String msg) {
         logger.info(prependClassAndMethodToMsg(msg));
     }
 
+    @Override
     public void warn(String msg) {
         logger.warn(prependClassAndMethodToMsg(msg));
     }
 
+    @Override
     public void warn(String msg, Throwable e) {
         logger.warn(prependClassAndMethodToMsg(msg), e);
     }
 
+    @Override
     public void error(String msg) {
         logger.error(prependClassAndMethodToMsg(msg));
     }
 
+    @Override
     public void error(String msg, Throwable e) {
         logger.error(prependClassAndMethodToMsg(msg),e);
     }
