@@ -23,6 +23,14 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ 200 - 请求成功
+ 301 - 资源（网页等）被永久转移到其它URL
+ 404 - 请求的资源（网页等）不存在
+ 500 - 内部服务器错误
+
+ */
 public class HttpClientUtil {
 
     /**

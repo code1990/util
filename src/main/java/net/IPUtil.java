@@ -1,5 +1,6 @@
 package net;
 
+import io.TxtUtil;
 import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -275,7 +276,7 @@ public class IPUtil {
     /**
      * 给定ip来判断该ip是否可用
      */
-    public boolean isOk(String ip,int port){
+    public static boolean isOk(String ip,int port){
         boolean result = false;
         int status = 0;
         try {
@@ -284,7 +285,7 @@ public class IPUtil {
             HttpHost proxy = new HttpHost(ip, port);
             RequestConfig config = RequestConfig.custom().setProxy(proxy).setConnectTimeout(3000).
                     setSocketTimeout(3000).build();
-            HttpGet httpGet = new HttpGet("https://www.baidu.com");
+            HttpGet httpGet = new HttpGet("https://xbcode.com/");
             httpGet.setConfig(config);
 
             httpGet.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;" +
@@ -295,31 +296,114 @@ public class IPUtil {
                     "/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36");
             response = httpClient.execute(httpGet);
             status = response.getStatusLine().getStatusCode();
-            System.out.println(status+":"+ip+":"+port);
+            if(200 == status){
+                System.out.println(status+":"+ip+":"+port);
+                result = true;
+            }
         } catch (IOException e) {
 //            e.printStackTrace();
-//            System.out.println("error");
+            System.out.println("error");
         }
 //        System.out.println(status);
-        if(200 == status){
-            result = true;
-        }
+
         return  result;
     }
 
     @Test
     public void tests(){
-        List<String> list = IPUtil.getIPList();
+        List<String> list = new ArrayList<>();
+//                TxtUtil.readTxt("C:\\Users\\issuser\\Desktop\\1111.txt");
+        list.add("124.239.177.85;8080");
+        list.add("36.97.145.29;9797");
+        list.add("124.206.119.123;3128");
+        list.add("218.66.253.146;8800");
+        list.add("222.85.127.130;9797");
+        list.add("120.204.85.29;3128");
+        list.add("114.113.126.82;80");
+        list.add("222.85.127.130;9999");
+        list.add("120.84.238.210;8080");
+        list.add("58.249.55.222;9797");
+        list.add("221.130.83.40;53281");
+        list.add("221.237.154.57;9797");
+        list.add("120.132.71.212;80");
+        list.add("220.249.185.178;9797");
+        list.add("121.8.243.66;8888");
+        list.add("117.158.160.246;9797");
+        list.add("124.207.82.166;8008");
+        list.add("58.222.181.139;3128");
+        list.add("27.46.39.99;9797");
+        list.add("27.46.39.99;9797");
+        list.add("58.215.120.223;3128");
+        list.add("122.136.212.132;53281");
+        list.add("116.25.250.175;9999");
+        list.add("1.196.161.162;9999");
+        list.add("222.132.145.122;53281");
+        list.add("58.215.120.223;3128");
+        list.add("139.209.242.209;8080");
+        list.add("112.12.37.196;53281");
+        list.add("163.125.70.107;8888");
+        list.add("221.204.117.250;9797");
+        list.add("218.6.145.11;9797");
+        list.add("14.155.112.123;9000");
+        list.add("125.46.69.18;3128");
+        list.add("218.26.217.77;3128");
+        list.add("120.237.14.198;53281");
+        list.add("124.205.155.148;9090");
+        list.add("118.244.209.168;80");
+        list.add("183.16.151.80;9797");
+        list.add("49.91.4.25;80");
+        list.add("49.94.34.102;3128");
+        list.add("121.34.180.198;8888");
+        list.add("60.191.163.235;3128");
+        list.add("122.224.209.98;3128");
+        list.add("113.66.62.155;9797");
+        list.add("14.144.209.90;9000");
+        list.add("27.46.50.22;8888");
+        list.add("123.233.120.26;8080");
+        list.add("113.65.10.141;9797");
+        list.add("218.76.87.117;3128");
+        list.add("123.138.73.122;9797");
+        list.add("113.121.245.252;808");
+        list.add("121.232.147.84;9000");
+        list.add("112.74.160.144;80");
+        list.add("117.90.2.221;9000");
+        list.add("139.196.36.156;3128");
+        list.add("121.232.145.219;9000");
+        list.add("59.61.92.205;8118");
+        list.add("115.218.125.51;9000");
+        list.add("175.170.127.58;1205");
+        list.add("182.18.32.238;8080");
+        list.add("171.12.10.63;808");
+        list.add("113.72.88.43;9797");
+        list.add("221.235.244.54;80");
+        list.add("221.235.244.53;80");
+        list.add("113.89.52.123;9999");
+        list.add("61.144.102.164;9797");
+        list.add("218.20.54.68;9797");
+        list.add("119.122.213.13;9000");
+        list.add("171.37.178.182;9797");
+        list.add("125.123.127.14;9000");
+        list.add("182.121.207.58;9999");
+        list.add("27.37.46.98;9797");
+        list.add("61.144.102.48;9797");
+        list.add("61.144.103.111;9797");
+        list.add("221.15.193.93;9999");
+        StringBuilder sb = new StringBuilder(200000);
         for(String str:list){
+            System.out.println(str);
             String[] array = str.split(";");
             String ip = array[0];
             int port = new Integer(array[1]);
             try {
 //                System.out.println();
-                isOk(ip,port);
+                if(isOk(ip,port)){
+                    sb.append(str+"\n");
+                }
+                ;
             } catch (Exception e) {
 //                e.printStackTrace();
             }
         }
+        TxtUtil.writeTxt("C:\\Users\\issuser\\Desktop\\11111111.txt",sb.toString());
     }
 }
