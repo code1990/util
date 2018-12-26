@@ -18,12 +18,12 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-
    <dependencies>
      <dependency>
        <groupId>junit</groupId>
        <artifactId>junit</artifactId>
        <version>4.8.2</version>
+       <!--<scope>test</scope>-->
      </dependency>
      <dependency>
        <groupId>us.codecraft</groupId>
@@ -35,9 +35,306 @@
        <artifactId>selenium-java</artifactId>
        <version>3.141.59</version>
      </dependency>
-  </dependencies>
+     <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+     <dependency>
+       <groupId>redis.clients</groupId>
+       <artifactId>jedis</artifactId>
+       <version>2.9.0</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+     <dependency>
+       <groupId>org.quartz-scheduler</groupId>
+       <artifactId>quartz</artifactId>
+       <version>2.3.0</version>
+     </dependency>
+
+     <!--网络编程有关的环境依赖  begin-->
+<!--java网络编程 javamail-->
+     <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+     <dependency>
+       <groupId>com.sun.mail</groupId>
+       <artifactId>javax.mail</artifactId>
+       <version>1.6.2</version>
+     </dependency>
+
+
+     <!--网络编程有关的环境依赖  end-->
+
+     <!--并发编程有关的环境依赖  begin-->
+
+
+
+     <!--并发编程有关的环境依赖  end-->
+
+     <!--RPC学习有关的环境依赖 begin-->
+
+     <!--cxf begin-->
+     <!-- spring -->
+     <dependency>
+       <groupId>org.springframework</groupId>
+       <artifactId>spring-context</artifactId>
+       <version>5.1.3.RELEASE</version>
+     </dependency>
+
+     <dependency>
+       <groupId>org.springframework</groupId>
+       <artifactId>spring-webmvc</artifactId>
+       <version>5.1.3.RELEASE</version>
+     </dependency>
+
+     <dependency>
+       <groupId>org.springframework</groupId>
+       <artifactId>spring-context-support</artifactId>
+       <version>5.1.3.RELEASE</version>
+     </dependency>
+
+     <dependency>
+       <groupId>org.springframework</groupId>
+       <artifactId>spring-core</artifactId>
+       <version>5.1.3.RELEASE</version>
+       <exclusions>
+         <exclusion>
+           <artifactId>commons-logging</artifactId>
+           <groupId>commons-logging</groupId>
+         </exclusion>
+       </exclusions>
+     </dependency>
+
+     <dependency>
+       <groupId>org.springframework</groupId>
+       <artifactId>spring-jdbc</artifactId>
+       <version>5.1.3.RELEASE</version>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+     <dependency>
+       <groupId>org.apache.cxf</groupId>
+       <artifactId>cxf-rt-frontend-jaxws</artifactId>
+       <version>3.2.7</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.cxf</groupId>
+       <artifactId>cxf-rt-transports-http</artifactId>
+       <version>3.2.7</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.cxf</groupId>
+       <artifactId>cxf-rt-transports-http-jetty</artifactId>
+       <version>3.2.7</version>
+     </dependency>
+
+     <!--cxf end-->
+     <!-- axis2 -->
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-transport-xmpp</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-transport-udp</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-transport-tcp</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-webapp</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-xmlbeans</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-spring</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.axis2</groupId>
+       <artifactId>axis2-soapmonitor-servlet</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <!-- axis2 -->
+
+     <!--thrift-->
+     <!-- thrift -->
+     <dependency>
+       <groupId>org.apache.thrift</groupId>
+       <artifactId>libfb303</artifactId>
+       <version>0.9.3</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.thrift</groupId>
+       <artifactId>libthrift</artifactId>
+       <version>0.9.3</version>
+     </dependency>
+
+
+     <!-- thrift for java annotation -->
+     <dependency>
+       <groupId>com.facebook.swift</groupId>
+       <artifactId>swift-annotations</artifactId>
+       <version>0.13.0</version>
+     </dependency>
+     <dependency>
+       <groupId>com.facebook.swift</groupId>
+       <artifactId>swift-codec</artifactId>
+       <version>0.13.0</version>
+     </dependency>
+     <dependency>
+       <groupId>com.facebook.swift</groupId>
+       <artifactId>swift-generator</artifactId>
+       <version>0.13.0</version>
+     </dependency>
+     <dependency>
+       <groupId>com.facebook.swift</groupId>
+       <artifactId>swift-idl-parser</artifactId>
+       <version>0.13.0</version>
+     </dependency>
+     <dependency>
+       <groupId>com.facebook.swift</groupId>
+       <artifactId>swift-service</artifactId>
+       <version>0.13.0</version>
+     </dependency>
+
+     <!-- logger -->
+     <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.9</version>
+     </dependency>
+     <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.21</version>
+     </dependency>
+     <dependency>
+       <groupId>log4j</groupId>
+       <artifactId>log4j</artifactId>
+       <version>1.2.17</version>
+     </dependency>
+     <!--thrift-->
+     <!--grpc-->
+     <dependency>
+       <groupId>io.grpc</groupId>
+       <artifactId>grpc-netty</artifactId>
+       <version>1.17.0</version>
+     </dependency>
+     <dependency>
+       <groupId>io.grpc</groupId>
+       <artifactId>grpc-protobuf</artifactId>
+       <version>1.17.0</version>
+     </dependency>
+     <dependency>
+       <groupId>io.grpc</groupId>
+       <artifactId>grpc-stub</artifactId>
+       <version>1.17.0</version>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/io.grpc/grpc-core -->
+     <dependency>
+       <groupId>io.grpc</groupId>
+       <artifactId>grpc-core</artifactId>
+       <version>1.17.0</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/io.grpc/grpc-all -->
+     <dependency>
+       <groupId>io.grpc</groupId>
+       <artifactId>grpc-all</artifactId>
+       <version>1.17.0</version>
+     </dependency>
+
+     <!--grpc-->
+     <!--httpClient-->
+     <dependency>
+       <groupId>org.aspectj</groupId>
+       <artifactId>aspectjrt</artifactId>
+       <version>1.8.0</version>
+     </dependency>
+     <dependency>
+       <groupId>org.aspectj</groupId>
+       <artifactId>aspectjweaver</artifactId>
+       <version>1.8.0</version>
+     </dependency>
+     <!--spring整合到上面的依赖中-->
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpclient</artifactId>
+           <version>4.5</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpcore</artifactId>
+           <version>4.4.5</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpmime</artifactId>
+           <version>4.5.2</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>fluent-hc</artifactId>
+           <version>4.5.2</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpasyncclient</artifactId>
+           <version>4.1.2</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpcore-nio</artifactId>
+           <version>4.4.5</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.httpcomponents</groupId>
+           <artifactId>httpclient-cache</artifactId>
+           <version>4.5.2</version>
+       </dependency>
+     <!--json-->
+       <dependency>
+         <groupId>com.alibaba</groupId>
+         <artifactId>fastjson</artifactId>
+         <version>1.2.12</version>
+       </dependency>
+
+       <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
+         <version>3.0-alpha-1</version>
+         <scope>provided</scope>
+       </dependency>
+     <!--httpClient-->
+     <!--自定义RPC-->
+     <dependency>
+       <groupId>org.apache.commons</groupId>
+       <artifactId>commons-lang3</artifactId>
+       <version>3.3.2</version>
+     </dependency>
+     <!--自定义RPC-->
+
+
+     <!--RPC学习有关的环境依赖 end-->
+
+   </dependencies>
 
   <build>
+    <!--grpc-->
+    <extensions>
+      <extension>
+        <groupId>kr.motd.maven</groupId>
+        <artifactId>os-maven-plugin</artifactId>
+        <version>1.4.1.Final</version>
+      </extension>
+    </extensions>
+    <!--grpc-->
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
@@ -69,6 +366,27 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+        <!--grpc-->
+          <!--protobuf -maven -plugin 插件能自动编译 protobuf IDL 文件，生成对应 Java 代码-->
+        <plugin>
+          <groupId>org.xolstice.maven.plugins</groupId>
+          <artifactId>protobuf-maven-plugin</artifactId>
+          <version>0.5.0</version>
+          <configuration>
+            <protocArtifact>com.google.protobuf:protoc:3.0.0:exe:${os.detected.classifier}</protocArtifact>
+            <pluginId>grpc-java</pluginId>
+            <pluginArtifact>io.grpc:protoc-gen-grpc-java:1.0.0:exe:${os.detected.classifier}</pluginArtifact>
+          </configuration>
+          <executions>
+            <execution>
+              <goals>
+                <goal>compile</goal>
+                <goal>compile-custom</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <!--grpc-->
       </plugins>
     </pluginManagement>
   </build>

@@ -84,17 +84,7 @@ public class JB51NetBooks implements PageProcessor {
         }
 
         if(flag){
-            mainDiv = document.getElementById("list_ul_more");
-            if (mainDiv != null) {
-                Elements lis = mainDiv.getElementsByTag("li");
-                for (int i = 0; i < lis.size(); i++) {
-                    Element a = lis.get(i).getElementsByTag("a").first();
-                    String href = mainUrl+a.attr("href");
-                    String text = a.text();
-                    System.out.println(text+";"+href);
-                    mxSb.append(text+";"+href+"\n");
-                }
-            }
+
         }
 
         mainDiv = document.getElementById("content");
