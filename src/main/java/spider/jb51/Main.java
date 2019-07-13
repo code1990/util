@@ -11,7 +11,7 @@ import java.util.concurrent.*;
  */
 public class Main {
     public static void main(String[] args) {
-        Spider01 s01 = new Spider01();
+//        Spider01 s01 = new Spider01();
         /**//*s01.start();*/
         /*ExecutorService executor = ThreadPoolExecutor.
                 Executors.newSingleThreadExecutor();*/

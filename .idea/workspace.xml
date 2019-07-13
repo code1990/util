@@ -2,16 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b8f2b1-e72c-4512-b229-0b75a43f6380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spider/RootSpider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spider/jb51/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spider/jb51/Spider02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spider/jb51/Spider03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spider/jb51/Spider04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aip_java_sdk_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/translate/HttpGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/translate/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/translate/TransApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aip-java-sdk-4.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jave-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json-20160810.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/selenium-server-standalone-3.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/slf4j-simple-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Demo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Demo15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Demo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Demo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Demo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExtractImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaRegExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JunitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PDFTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegexUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SJWLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TxtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VideoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/CsvUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/CsvUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spider/ebook/JB51NetBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spider/ebook/JB51NetBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/TxtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/TxtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spider/jb51/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spider/jb51/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,6 +111,27 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-858935642">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="94" />
+          <entry key="Python" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="120" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="util" />
@@ -85,71 +139,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JavaRegExp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#719#734#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-22">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/TxtUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PDFTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3303">
+            <state relative-caret-position="54">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JunitDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TxtUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/FileUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/VideoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1588">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider04.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,19 +199,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
-              <caret line="129" column="14" selection-start-line="128" selection-start-column="8" selection-end-line="132" selection-end-column="23" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider02.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCSVReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,10 +220,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/Java1234.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Demo9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="79" column="27" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="54">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Demo15.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -240,38 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rpc/webservice_axis2/Axis2Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/webservice_axis2/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/webservice_axis2/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/NonblockingInvoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/AsynInvokerCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/resources/thrift_files/HelloService.thrift" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/resources/thrift_files/UserModel.thrift" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/SimpleInvoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/ThriftSerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_original/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_simple/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_simple/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_simple/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_simple/ServerMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/thrift_simple/ClientMain.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/grpc/service/HelloResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/grpc/HelloServiceGrpc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/grpc/HelloClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/grpc/HelloServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/applicationContext-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/ApiResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/HttpClientInvoke.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/httpClient/HttpInvokeCallable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/ConsumerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/HelloServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/ProviderReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/RpcConsumerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/diy_rpc/RpcProviderMain.java" />
@@ -287,10 +305,42 @@
         <option value="$PROJECT_DIR$/src/main/java/spider/jb51/Spider02.java" />
         <option value="$PROJECT_DIR$/src/main/java/spider/jb51/Spider04.java" />
         <option value="$PROJECT_DIR$/src/main/java/spider/ebook/JB51NetBooks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spider/jb51/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/spider/jb51/Spider03.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/CsvUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/DuanYu.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/jb51/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/TxtUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/NIOReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/CsvReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/RegexUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/VideoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/ebook/GithubRepoPageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/ebook/DouBanBookPageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/word/CET4NearWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/word/CET4Word.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/word/CET4WordFenLei.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/word/XDFWords.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessortmp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessortmp3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/work/Job51PageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/OCRUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/AutoTranslate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/AutoBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spider/word/DuanYu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sql/DbUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/translate/GoogleTranslate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/DocUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ocr/OCRUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ocr/BaiduOCR.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCSVReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VideoTest.java" />
       </list>
     </option>
   </component>
@@ -338,7 +388,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -371,7 +420,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="ocr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="word" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="util" type="b2602c69:ProjectViewProjectNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="translate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="util" type="b2602c69:ProjectViewProjectNode" />
@@ -385,14 +483,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="util" type="b2602c69:ProjectViewProjectNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="util" type="b2602c69:ProjectViewProjectNode" />
@@ -402,24 +492,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545834507560" />
-    <property name="last_opened_file_path" value="E:/OAS_Dev" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2888889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563023313550" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/slf4j-simple-1.7.25.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31777778" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ocr" />
+      <recent name="" />
+      <recent name="spider.work" />
       <recent name="spider.jb51" />
       <recent name="rpc.grpc.service" />
-      <recent name="translate" />
-      <recent name="lang" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="spider.jb51" />
@@ -429,11 +522,11 @@
       <recent name="spider.xicidailicom" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\util\src" />
+      <recent name="E:\github\util\src\main\java" />
+      <recent name="E:\github\util\src\main" />
       <recent name="D:\sdk\IdeaProjects\util\src\main\java\rpc\diy_rpc" />
       <recent name="D:\sdk\IdeaProjects\util\src\main\java\rpc\httpClient\resources" />
-      <recent name="D:\sdk\IdeaProjects\util\src\main\java\rpc\httpClient" />
-      <recent name="D:\sdk\IdeaProjects\util\src\main\java\rpc\grpc\proto" />
-      <recent name="D:\sdk\IdeaProjects\util\src\main\java\rpc\grpc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,42 +541,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="JB51NetBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spider.ebook.JB51NetBook" />
+  <component name="RunManager" selected="JUnit.VideoTest.getTime">
+    <configuration name="BaiduTranslate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaiduTranslate" />
       <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spider.ebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java1234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spider.ebook.Java1234" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spider.ebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spider.jb51.Main" />
-      <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spider.jb51.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -495,38 +563,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java1234.testInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VideoTest.getTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="util" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spider.ebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spider.ebook" />
-      <option name="MAIN_CLASS_NAME" value="spider.ebook.Java1234" />
-      <option name="METHOD_NAME" value="testInfo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VideoTest" />
+      <option name="METHOD_NAME" value="getTime" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Java1234" />
-      <item itemvalue="JUnit.Java1234.testInfo" />
-      <item itemvalue="Application.JB51NetBook" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Python.hello" />
+      <item itemvalue="Application.BaiduTranslate" />
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="JUnit.VideoTest.getTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VideoTest.getTime" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.BaiduTranslate" />
+        <item itemvalue="Python.hello" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JB51NetBook" />
-        <item itemvalue="Application.Java1234" />
-        <item itemvalue="JUnit.Java1234.testInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -595,16 +676,17 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.2065053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.27155825" />
+      <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46481177" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2831424" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11456628" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,7 +694,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.39443535" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -638,147 +720,27 @@
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ExtractImages.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/NonblockingInvoker.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/SimpleInvoker.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/ThriftSerializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_simple/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_simple/ServerMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/AsynInvokerCallback.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_simple/ClientMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_simple/HelloService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_simple/HelloServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/RegexUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="369" column="50" selection-start-line="369" selection-start-column="50" selection-end-line="369" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/service/HelloService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/service/HelloResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/proto/sayHello.proto" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloServiceGrpc.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/grpc/HelloClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/WEB-INF/springmvc-servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/resources/applicationContext-web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/ApiResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/HttpClientInvoke.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/httpClient/HttpInvokeCallable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/HelloServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/ConsumerProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/HelloService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/ProviderReflect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/RpcConsumerMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/diy_rpc/RpcProviderMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/JB51Net.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/BlogTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/JB51NetBooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/JB51NetBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6831">
-          <caret line="268" column="31" selection-start-line="268" selection-start-column="31" selection-end-line="268" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/RootSpider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
-          <caret line="129" column="14" selection-start-line="128" selection-start-column="8" selection-end-line="132" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Spider02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/Java1234.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -787,40 +749,427 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/TxtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3303">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1588">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="112">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#719#734#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/VideoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/JB51Net.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/GithubRepoPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/ebook/DouBanBookPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/jb51/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/MainProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2117">
+          <caret line="129" column="14" selection-start-line="128" selection-start-column="8" selection-end-line="132" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/word/CET4NearWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/word/CET4Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/word/CET4WordFenLei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessortmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/work/Job51DetailPageProcessortmp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaiduOCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OCRUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/work/Job51PageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/BaiduOCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/OCRUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        <state relative-caret-position="27">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/CsvUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/word/DuanYu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spider/word/XDFWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/SqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translate/BaiduTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translate/GoogleTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DocUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/translate/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/CsvReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/DocUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ocr/BaiduOCR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/AutoBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/AutoTranslate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ocr/OCRUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/thrift_original/ThriftSerializer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExtractImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2133">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Demo15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JavaRegExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PDFTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JunitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TxtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VideoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,7 +1182,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31777778" />
               </list>
             </option>
           </splitter-proportions>
@@ -845,7 +1194,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31777778" />
               </list>
             </option>
           </splitter-proportions>
@@ -853,11 +1202,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.10.5</last-edited>
+          <last-edited>scala-sdk-2.11.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2888889" />
+                <option value="0.31777778" />
               </list>
             </option>
           </splitter-proportions>
@@ -869,7 +1218,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2888889" />
+                <option value="0.31777778" />
               </list>
             </option>
           </splitter-proportions>
@@ -881,7 +1230,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2888889" />
+                <option value="0.31777778" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -901,11 +1251,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>aip-java-sdk-4.11.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31777778" />
               </list>
             </option>
           </splitter-proportions>

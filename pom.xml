@@ -323,6 +323,133 @@
 
      <!--RPC学习有关的环境依赖 end-->
 
+     <!-- https://mvnrepository.com/artifact/ant/ant -->
+     <dependency>
+       <groupId>ant</groupId>
+       <artifactId>ant</artifactId>
+       <version>1.6.5</version>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+     <dependency>
+       <groupId>org.junit.jupiter</groupId>
+       <artifactId>junit-jupiter-api</artifactId>
+       <version>5.5.0-RC2</version>
+       <scope>test</scope>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/junit/junit -->
+     <dependency>
+       <groupId>junit</groupId>
+       <artifactId>junit</artifactId>
+       <version>4.12</version>
+       <scope>test</scope>
+     </dependency>
+
+     <!-- https://mvnrepository.com/artifact/ws.schild/jave-native-win64 -->
+     <dependency>
+       <groupId>ws.schild</groupId>
+       <artifactId>jave-native-win64</artifactId>
+       <version>2.4.6</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/ws.schild/jave-core -->
+     <dependency>
+       <groupId>ws.schild</groupId>
+       <artifactId>jave-core</artifactId>
+       <version>2.4.6</version>
+     </dependency>
+     <dependency>
+       <groupId>it.sauronsoftware</groupId>
+       <artifactId>jave</artifactId>
+       <version>1.0.2</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/src/main/resources/jave-1.0.2.jar</systemPath>
+     </dependency>
+
+     <dependency>
+       <groupId>org.apache.poi</groupId>
+       <artifactId>poi-ooxml</artifactId>
+       <version>3.8</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.poi</groupId>
+       <artifactId>poi-scratchpad</artifactId>
+       <version>3.8</version>
+     </dependency>
+     <dependency>
+       <groupId>org.apache.pdfbox</groupId>
+       <artifactId>pdfbox</artifactId>
+       <version>2.0.4</version>
+     </dependency> <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox -->
+     <dependency>
+       <groupId>org.apache.pdfbox</groupId>
+       <artifactId>fontbox</artifactId>
+       <version>2.0.8</version>
+     </dependency>
+     <dependency>
+       <groupId> e-iceblue </groupId>
+       <artifactId>spire.pdf</artifactId>
+       <version>2.2.0</version>
+     </dependency>
+     <dependency>
+       <groupId>e-iceblue</groupId>
+       <artifactId>spire.pdf.free</artifactId>
+       <version>2.2.2</version>
+     </dependency>
+     <!--<dependency>-->
+     <!--<groupId>com.baidu.aip</groupId>-->
+     <!--<artifactId>java-sdk</artifactId>-->
+     <!--<version>4.11.1</version>-->
+     <!--<systemPath>${project.basedir}/src/main/resources/aip-java-sdk-4.11.1.jar</systemPath>-->
+     <!--</dependency>-->
+     <!-- https://mvnrepository.com/artifact/com.asprise.ocr/java-ocr-api -->
+     <!--<dependency>-->
+     <!--<groupId>com.asprise.ocr</groupId>-->
+     <!--<artifactId>java-ocr-api</artifactId>-->
+     <!--<version>15.3.0.1</version>-->
+     <!--</dependency>-->
+     <dependency>
+       <groupId>log4j</groupId>
+       <artifactId>log4j</artifactId>
+       <version>1.2.17</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/org.json/json -->
+     <!--<dependency>-->
+     <!--<groupId>org.json</groupId>-->
+     <!--<artifactId>json</artifactId>-->
+     <!--<version>20160810</version>-->
+     <!--</dependency>-->
+     <dependency>
+       <groupId>org.apache.httpcomponents</groupId>
+       <artifactId>httpclient</artifactId>
+       <version>4.4</version>
+     </dependency>
+     <!-- selenium-java -->
+     <dependency>
+       <groupId>org.seleniumhq.selenium</groupId>
+       <artifactId>selenium-java</artifactId>
+       <version>3.4.0</version>
+     </dependency>
+
+
+
+     <dependency>
+       <groupId>us.codecraft</groupId>
+       <artifactId>webmagic-core</artifactId>
+       <version>0.7.3</version>
+     </dependency>
+     <dependency>
+       <groupId>us.codecraft</groupId>
+       <artifactId>webmagic-extension</artifactId>
+       <version>0.7.3</version>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+     <dependency>
+       <groupId>mysql</groupId>
+       <artifactId>mysql-connector-java</artifactId>
+       <version>8.0.16</version>
+     </dependency>
+
+
    </dependencies>
 
   <build>
