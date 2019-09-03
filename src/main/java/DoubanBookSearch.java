@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DoubanBookSearch {
     public static StringBuilder sb1 = new StringBuilder("*****************************************\n");
-    private static final String key = "hbase";
+    private static final String key = "函数式编程";
 
     /*第一步爬取数据*/
     public static void main(String[] args) throws Exception {
@@ -15,7 +15,7 @@ public class DoubanBookSearch {
         WebDriver driver = new ChromeDriver();
 
         int i = 0;
-        while (i <= 45) {
+        while (i <= 1500) {
             System.out.println(i);
             String url = "https://book.douban.com/subject_search?search_text=" + key + "&cat=1001&start=" + i;
             driver.get(url);
